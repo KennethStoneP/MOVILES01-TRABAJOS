@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "300200104739",
+    "project_id": "fir-access-2f7ba",
+    "storage_bucket": "fir-access-2f7ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300200104739:android:5da788946d3d3d425b3296",
+        "android_client_info": {
+          "package_name": "com.example.firebaseaccess"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBajY8iKuY4rTJclOMyrgCOrd-2Dwj0zi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

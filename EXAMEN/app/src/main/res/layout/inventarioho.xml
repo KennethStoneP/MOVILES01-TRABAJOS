@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#e8e8e8">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e8e8e8">
+
+        <!-- Encabezado -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/header"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:background="#f6f6f6"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="16px"
+            >
+
+            <ImageView
+                android:id="@+id/picProfile"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="16dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"   />
+
+            <TextView
+                android:id="@+id/powerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EXAMEN-1 KENNETH"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginStart="10dp"
+                app:layout_constraintTop_toTopOf="@id/picProfile"
+                app:layout_constraintBottom_toBottomOf="@id/picProfile"
+                app:layout_constraintStart_toEndOf="@id/picProfile" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/extraTable"
+            android:layout_width="1000px"
+            android:layout_height="1200px"
+            android:background="#ffffff"
+            app:layout_constraintTop_toBottomOf="@id/header"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp">
+
+            <!-- Encabezado para la caja -->
+            <TextView
+                android:id="@+id/boxHeader"
+                android:layout_width="1000px"
+                android:layout_height="140px"
+                android:text="Datos generales del Producto"
+                android:textSize="24sp"
+                android:textColor="#ffffff"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="0dp"
+                android:background="#007ACC"/>
+
+            <View
+                android:id="@+id/middleVerticalLine"
+                android:layout_width="1dp"
+                android:layout_height="0dp"
+                android:background="#000000"
+                app:layout_constraintTop_toBottomOf="@id/boxHeader"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.30" />
+            <!-- Horizontal line for the first row -->
+
+            <!-- Text for the second row -->
+            <TextView
+                android:id="@+id/textLine2Right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Codigo"
+                android:layout_marginRight="800px"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@id/horizontalLine1"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="15dp" />
+
+            <EditText
+                android:id="@+id/editTextText3"
+                android:layout_width="250dp"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:inputType="text"
+                android:background="@android:color/transparent"
+                android:backgroundTint="@null"
+                app:layout_constraintTop_toBottomOf="@id/horizontalLine1"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextText2"
+                android:layout_width="250dp"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:inputType="text"
+                android:background="@android:color/transparent"
+                android:backgroundTint="@null"
+                app:layout_constraintTop_toBottomOf="@id/textLine2Right"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <View
+                android:id="@+id/horizontalLine1"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="#000000"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="50dp"/>
+
+            <!-- Horizontal line for the second row -->
+            <View
+                android:id="@+id/horizontalLine2"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="#000000"
+                app:layout_constraintTop_toBottomOf="@id/horizontalLine1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/textLine3Right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descripción"
+                android:layout_marginRight="750px"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@id/horizontalLine2"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="15dp" />
+
+            <EditText
+                android:id="@+id/editTextText4"
+                android:layout_width="250dp"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:inputType="text"
+                android:background="@android:color/transparent"
+                android:backgroundTint="@null"
+                app:layout_constraintTop_toBottomOf="@id/textLine3Right"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <View
+                android:id="@+id/horizontalLine3"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="#000000"
+                app:layout_constraintTop_toBottomOf="@id/horizontalLine2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/textLine4Right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="284dp"
+                android:text="Categoria"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/horizontalLine3" />
+
+            <EditText
+                android:id="@+id/editTextText5"
+                android:layout_width="250dp"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:inputType="text"
+                android:background="@android:color/transparent"
+                android:backgroundTint="@null"
+                app:layout_constraintTop_toBottomOf="@id/textLine4Right"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <View
+                android:id="@+id/horizontalLine4"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="#000000"
+                app:layout_constraintTop_toBottomOf="@id/horizontalLine3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/textLine5Right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="284dp"
+                android:text="Minimo"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/horizontalLine4" />
+
+            <EditText
+                android:id="@+id/editTextText6"
+                android:layout_width="250dp"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:inputType="text"
+                android:background="@android:color/transparent"
+                android:backgroundTint="@null"
+                app:layout_constraintTop_toBottomOf="@id/textLine5Right"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <View
+                android:id="@+id/horizontalLine5"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="#000000"
+                app:layout_constraintTop_toBottomOf="@id/horizontalLine4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/textLine6Right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="284dp"
+                android:text="Maximo"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/horizontalLine5" />
+
+
+
+            <View
+                android:id="@+id/horizontalLine6"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="#000000"
+                app:layout_constraintTop_toBottomOf="@id/horizontalLine5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="50dp"/>
+
+
+            <TextView
+                android:id="@+id/textLine7Right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="268dp"
+                android:text="Descontinuado"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/horizontalLine6" />
+
+            <View
+                android:id="@+id/horizontalLine7"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="#000000"
+                app:layout_constraintTop_toBottomOf="@id/horizontalLine6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="50dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@id/horizontalLine6"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="0dp">
+
+                <RadioButton
+                    android:id="@+id/yesRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_marginEnd="16dp"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/noRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginEnd="16dp" />
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="172dp"
+                android:layout_height="46dp"
+                android:text="Aceptar"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@id/textLine7Right"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+
+
+
+
+

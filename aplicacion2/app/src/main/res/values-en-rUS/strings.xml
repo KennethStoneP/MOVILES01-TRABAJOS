@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">aplicacion2</string>
+    <string name="btn_show">show</string>
+    <string name="btn_shop">buy</string>
+    <string name="btn_print">print</string>
+    <string name="msg_show">pick an option</string>
+    <string name="msg_shop">buy smth</string>
+    <string name="msg_print">print the bill</string>
+    <string name="btn_cancel">cancel</string>
+    <string name="btn_Salir">exit</string>
+</resources>

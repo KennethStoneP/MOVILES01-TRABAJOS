@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aprende Mientras Juegas</string>
+    <string name="sign_in">Entrar</string>
+    <string name="menu_home">Lar</string>
+    <string name="menu_gallery">" Sobre nós"</string>
+    <string name="menu_slideshow">" Sala de aula virtual"</string>
+    <string name="menu_Entities">" Entidades Públicas"</string>
+    <string name="menu_Info">" Créditos"</string>
+    <string name="message_home">Tela Inicial</string>
+    <string name="message_about_us">Tela Sobre nós</string>
+    <string name="message_VC">Tela de Aula Virtual</string>
+    <string name="message_EP">Tela de Entidades</string>
+    <string name="message_Credits">Tela de Créditos</string>
+    <string name="txt_LWP">Aprenda enquanto joga, dedicado ao ensino virtual!</string>
+    <string name="txt_LWP_mail">learngwhileplaying@gmail.com</string>
+    <string name="navigation_drawer_open">Abrir gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
+    <string name="text_INA">O INA forma, forma e certifica pessoas singulares e colectivas, para contribuir para o crescimento pessoal, mobilidade social, produtividade e competitividade; que permite ao país se adaptar às mudanças que o meio ambiente exige</string>
+    <string name="text_MEP">O Ministério da Educação Pública (MEP) da Costa Rica é o ministério do governo responsável pela administração do sistema de educação pública do país. Suas principais funções são executar planos, programas e outras determinações que garantam a educação geral básica, pública e gratuita, coordenar as relações do Poder Executivo</string>
+    <string name="title_entities">Reconhecendo entidades</string>
+    <string name="title_Credits">Creditos Correspondientes</string>
+    <string name="text_Credits">Créditos a quem participou da criação deste projeto. Participantes: Kenneth Piedra Vargas, William Cubero Navarro, Eduard Andrés Arias Quiros e Sebastián Alberto Mata Ortega</string>
+</resources>

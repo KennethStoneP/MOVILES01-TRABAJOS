@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EXAMEN-1</string>
+    <string name="msg_code">Codigo</string>
+    <string name="msg_description">Descripcion</string>
+    <string name="msg_category">Categoria</string>
+    <string name="msg_Minimum">Minimo</string>
+    <string name="msg_Maximun">Maximo</string>
+    <string name="msg_discontinuated">Descontinuado</string>
+    <string name="msg_title">general dates of the product</string>
+    <string name="btn_accept">Aceptar</string>
+</resources>
+
+
